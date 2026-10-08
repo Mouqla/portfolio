@@ -1,0 +1,324 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio of Mohammed Uqla, a software developer and Information Technology student at Chalmers University of Technology."
+    />
+    <meta name="theme-color" content="#0b1f3a" />
+    <title>Mohammed Uqla | Software Developer</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="#top" aria-label="Mohammed Uqla, home">MU</a>
+        <nav aria-label="Primary navigation">
+          <a href="#work">Projects</a>
+          <a href="#experience">Experience</a>
+          <a href="#education">Education</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top">
+        <div class="container hero-grid">
+          <div class="hero-copy reveal">
+            <p class="eyebrow">Software developer · Gothenburg, Sweden</p>
+            <h1>Building reliable software around real user needs.</h1>
+            <p class="hero-intro">
+              I am Mohammed Uqla, an Information Technology student at Chalmers
+              with experience in Java, Python, backend development and
+              customer-oriented software projects.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#work">View selected work</a>
+              <a
+                class="button button-secondary"
+                href="https://www.linkedin.com/in/mohammed-uqla-73a7b0171/"
+                target="_blank"
+                rel="noreferrer"
+              >LinkedIn <span aria-hidden="true">↗</span></a>
+            </div>
+          </div>
+
+          <aside class="availability reveal" aria-label="Current availability">
+            <span class="status"><span class="status-dot"></span> Available</span>
+            <h2>Open to full-time opportunities</h2>
+            <p>
+              Junior software development, backend, integration and
+              cloud-oriented roles.
+            </p>
+            <dl>
+              <div>
+                <dt>Languages</dt>
+                <dd>Swedish &amp; English</dd>
+              </div>
+              <div>
+                <dt>Location</dt>
+                <dd>Gothenburg · Open to relocation</dd>
+              </div>
+            </dl>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section" id="work">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Selected work</p>
+            <h2>Projects with technical depth and practical purpose.</h2>
+          </div>
+
+          <div class="project-list">
+            <article class="project project-featured reveal">
+              <div class="project-index">01</div>
+              <div class="project-content">
+                <div class="project-meta">
+                  <span>Client collaboration</span>
+                  <span>Academic project</span>
+                </div>
+                <h3>AquaSvea — digital workflow solution</h3>
+                <p>
+                  Developed a software solution together with an external
+                  organisation to digitalise an existing way of working. The
+                  project strengthened my ability to understand user needs,
+                  translate requirements into a system design and communicate
+                  technical decisions with a client.
+                </p>
+                <ul class="outcomes">
+                  <li>Requirements, system design, implementation and testing</li>
+                  <li>Iterative development and stakeholder communication</li>
+                  <li>Final grade: 5 — highest grade on the course scale</li>
+                </ul>
+                <figure class="project-preview">
+                  <img
+                    src="./assets/aquasvea-dashboard.png"
+                    alt="AquaSvea simulation dashboard showing saved wastewater process simulations"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                  <figcaption>AquaSvea desktop application — simulation overview.</figcaption>
+                </figure>
+                <div class="tech" aria-label="Technologies">
+                  <span>Java</span><span>JavaFX</span><span>Git</span><span>Scrum</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="project reveal">
+              <div class="project-index">02</div>
+              <div class="project-content">
+                <div class="project-meta"><span>Academic project</span></div>
+                <h3>TrainSim — concurrent railway simulation</h3>
+                <p>
+                  A Java simulation where trains share track resources safely.
+                  Threads, semaphores and sensors coordinate movement while
+                  preventing conflicting access to critical sections.
+                </p>
+                <div class="tech" aria-label="Technologies">
+                  <span>Java</span><span>Concurrency</span><span>Semaphores</span><span>Git</span>
+                </div>
+                <a
+                  class="text-link"
+                  href="https://github.com/Mouqla/TrainSim"
+                  target="_blank"
+                  rel="noreferrer"
+                >View repository <span aria-hidden="true">↗</span></a>
+              </div>
+            </article>
+
+            <article class="project reveal">
+              <div class="project-index">03</div>
+              <div class="project-content">
+                <div class="project-meta"><span>Backend project</span></div>
+                <h3>REST API and data service</h3>
+                <p>
+                  Designed a structured backend service with REST endpoints,
+                  persistent data and containerised development. The work
+                  focused on clear data models, validation and maintainable API
+                  behaviour.
+                </p>
+                <div class="tech" aria-label="Technologies">
+                  <span>Python</span><span>FastAPI</span><span>PostgreSQL</span><span>Docker</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="project reveal">
+              <div class="project-index">04</div>
+              <div class="project-content">
+                <div class="project-meta"><span>Personal project</span><span>In progress</span></div>
+                <h3>TikTokii — place discovery from TikTok videos</h3>
+                <p>
+                  TikTokii is a personal full-stack product designed to solve a
+                  simple problem: interesting restaurants, cafés, hotels and
+                  activities are often discovered on TikTok but become difficult
+                  to find again. The product goal is to let a user paste a TikTok
+                  URL, identify the real-world place shown or mentioned, verify
+                  its location and save it to a personal collection and map.
+                </p>
+                <div class="project-details">
+                  <div>
+                    <h4>Current implementation</h4>
+                    <p>
+                      The React interface supports address search and displays
+                      the returned coordinates as a Leaflet marker. A user can
+                      name the selected place and send it to the Django backend.
+                      The backend is designed around GeoDjango and
+                      PostgreSQL/PostGIS for geographic data.
+                    </p>
+                  </div>
+                  <div>
+                    <h4>Next milestone</h4>
+                    <p>
+                      Build the TikTok import pipeline: extract location signals
+                      from captions, speech and visible text, identify a place
+                      candidate, verify it through geocoding and ask for user
+                      confirmation when confidence is uncertain.
+                    </p>
+                  </div>
+                </div>
+                <figure class="project-preview project-preview-wide">
+                  <img
+                    src="./assets/tiktokii-map.png"
+                    alt="TikTokii web application with a map of Scandinavia and a place search interface"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                  <figcaption>TikTokii map interface — place search and discovery.</figcaption>
+                </figure>
+                <div class="tech" aria-label="Technologies">
+                  <span>Python</span><span>Django</span><span>GeoDjango</span><span>React</span><span>Vite</span><span>Leaflet</span><span>PostgreSQL</span><span>PostGIS</span>
+                </div>
+                <a
+                  class="text-link"
+                  href="https://github.com/Mouqla/TikTokii"
+                  target="_blank"
+                  rel="noreferrer"
+                >View repository <span aria-hidden="true">↗</span></a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-muted" id="experience">
+        <div class="container split">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Experience</p>
+            <h2>Comfortable learning inside real systems.</h2>
+          </div>
+          <div class="timeline reveal">
+            <article>
+              <div class="timeline-topline">
+                <h3>Software Developer · Magistera</h3>
+                <span>Current</span>
+              </div>
+              <p>
+                Contribute to an existing codebase, investigate technical
+                dependencies and test changes with respect for established
+                functionality. The role has strengthened my ability to learn
+                unfamiliar systems and solve problems methodically.
+              </p>
+            </article>
+            <article>
+              <div class="timeline-topline">
+                <h3>External client collaboration · AquaSvea</h3>
+                <span>Bachelor project</span>
+              </div>
+              <p>
+                Worked directly with an external organisation to understand
+                users, clarify requirements and deliver a practical digital
+                solution. The collaboration gave me valuable insight into
+                customer-oriented development and consulting work.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="education">
+        <div class="container education-grid">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Education</p>
+            <h2>Engineering foundation, applied through software.</h2>
+          </div>
+          <div class="education-card reveal">
+            <div class="education-title">
+              <div>
+                <h3>Chalmers University of Technology</h3>
+                <p>M.Sc. in Information Technology · High-Performance Computer Systems</p>
+              </div>
+              <span>2022 — Present</span>
+            </div>
+            <h4>Relevant coursework</h4>
+            <ul class="course-grid">
+              <li>Object-Oriented Programming in Java</li>
+              <li>Basic Software Development</li>
+              <li>Object-Oriented Programming Project</li>
+              <li>Web Applications and Web Development</li>
+              <li>Data Structures and Algorithms</li>
+              <li>Databases and SQL</li>
+              <li>Advanced Programming in Python</li>
+              <li>Machine-Oriented Programming in C</li>
+              <li>Concurrent Programming</li>
+              <li>Introduction to Data Science and AI</li>
+              <li>Applied Machine Learning</li>
+              <li>Cybersecurity</li>
+              <li>Agile Software Development</li>
+              <li>Digitalisation and AI in Practice</li>
+              <li>Basic Computer Engineering</li>
+              <li>Mathematical Modelling and Problem Solving</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact" id="contact">
+        <div class="container contact-inner reveal">
+          <p class="eyebrow">Next step</p>
+          <h2>Let’s build software that creates practical value.</h2>
+          <p>
+            I am available for full-time junior software development
+            opportunities and open to roles across Sweden.
+          </p>
+          <div class="hero-actions">
+            <a
+              class="button button-light"
+              href="mailto:m.uqla6370@gmail.com"
+            >Email me</a>
+            <a
+              class="button button-outline-light"
+              href="https://www.linkedin.com/in/mohammed-uqla-73a7b0171/"
+              target="_blank"
+              rel="noreferrer"
+            >LinkedIn <span aria-hidden="true">↗</span></a>
+            <a
+              class="button button-outline-light"
+              href="https://github.com/Mouqla"
+              target="_blank"
+              rel="noreferrer"
+            >GitHub <span aria-hidden="true">↗</span></a>
+          </div>
+          <a class="contact-email" href="mailto:m.uqla6370@gmail.com">m.uqla6370@gmail.com</a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container footer-inner">
+        <span>Mohammed Uqla</span>
+        <span>Software Developer · <span id="year"></span></span>
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
