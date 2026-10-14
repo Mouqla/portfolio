@@ -249,7 +249,7 @@ window.portfolioTranslations = {
       magisteraDate: "Mar 2026 — pågående",
       magisteraText:
         "Utvecklar webb- och logistikfunktioner i en befintlig kodbas, kartlägger tekniska beroenden, felsöker metodiskt och testar ändringar med hänsyn till befintlig funktionalitet.",
-      mathemTitle: "Leveransförare · Mathem / Mat.se",
+      mathemTitle: "Budbilschaufför · Mathem / Mat.se",
       mathemDate: "2020 — pågående",
       mathemText:
         "Ansvarar för kundkontakt, självständig planering och introduktion av nya kollegor parallellt med heltidsstudier. Rollen har stärkt mitt ansvarstagande, min kommunikation och min förmåga att arbeta strukturerat i högt tempo.",
