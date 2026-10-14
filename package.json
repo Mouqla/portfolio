@@ -1,0 +1,27 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Källkoden till Mohammed Uqlas professionella utvecklarportfolio.",
+  "main": "script.js",
+  "scripts": {
+    "format": "prettier --write \"**/*.{html,css,js,json,md,yml,yaml}\"",
+    "format:check": "prettier --check \"**/*.{html,css,js,json,md,yml,yaml}\"",
+    "validate:html": "html-validate index.html",
+    "test": "npm run format:check && npm run validate:html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mouqla/portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mouqla/portfolio/issues"
+  },
+  "homepage": "https://github.com/Mouqla/portfolio#readme",
+  "devDependencies": {
+    "html-validate": "^10.9.0",
+    "prettier": "^3.9.10"
+  }
+}
