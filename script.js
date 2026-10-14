@@ -12,7 +12,7 @@ if ("IntersectionObserver" in window) {
         }
       }
     },
-    { threshold: 0.08 }
+    { threshold: 0.08 },
   );
 
   items.forEach((item) => observer.observe(item));
