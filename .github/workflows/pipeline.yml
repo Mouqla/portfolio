@@ -11,7 +11,7 @@ permissions:
 
 jobs:
   validate:
-    name: validate site
+    name: Validate site
     runs-on: ubuntu-latest
     steps:
       - name: Check out repo
@@ -28,3 +28,42 @@ jobs:
 
       - name: Validate website
         run: npm test
+
+  deploy:
+    name: Deploy to GitHub Pages
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    needs: validate
+    runs-on: ubuntu-latest
+    concurrency:
+      group: github-pages
+      cancel-in-progress: false
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v7
+
+      - name: Prepare website artifact
+        run: |
+          mkdir _site
+          cp index.html styles.css script.js translations.js .nojekyll _site/
+          cp -r assets _site/assets
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload website artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+
+      - name: Deploy website
+        id: deployment
+        uses: actions/deploy-pages@v4
