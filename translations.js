@@ -20,14 +20,14 @@ window.portfolioTranslations = {
       eyebrow: "Software Developer · Gothenburg, Sweden",
       title: "Building reliable software around real user needs.",
       intro:
-        "I’m Mohammed Uqla, an Information Technology student at Chalmers and a part-time Software Developer. I build reliable applications with Java and Python, develop backend services, automate build and testing workflows, and turn user needs into practical digital solutions.",
+        "I’m Mohammed Uqla, an Information Technology student at Chalmers and a part-time Software Developer. I develop reliable, user-oriented solutions using Java and Python and contribute throughout the development process – from requirements and system design to implementation, testing and delivery.",
       workCta: "View selected work",
     },
     availability: {
       label: "Current availability",
       status: "Available",
       title: "Open to full-time opportunities",
-      text: "I am interested in junior roles where I can contribute to backend and full-stack development, systems integration, automation and modern software delivery.",
+      text: "I am interested in junior software and systems development roles where I can contribute through programming, problem-solving, systems integration, automation and a strong focus on user and business needs.",
       languagesLabel: "Languages",
       languages: "Swedish & English",
       locationLabel: "Location",
@@ -63,7 +63,7 @@ window.portfolioTranslations = {
       challenge:
         "Translate a domain-specific Excel workflow into a reliable desktop tool without losing the client’s established way of working.",
       contribution:
-        "Worked with requirements, implementation, testing and documentation.",
+        "Contributed throughout the entire development process, from requirements gathering and client communication to implementation, testing and documentation. Translated business and user needs into concrete functionality using Java and JavaFX.",
       outcome:
         "Delivered a standalone simulation tool that digitalised the client’s workflow. The thesis received grade 5.",
       imageAlt:
@@ -163,14 +163,14 @@ window.portfolioTranslations = {
       title:
         "Jag bygger tillförlitlig mjukvara utifrån verkliga användarbehov.",
       intro:
-        "Jag heter Mohammed Uqla och studerar informationsteknik på Chalmers samtidigt som jag arbetar deltid som mjukvaruutvecklare. Jag bygger tillförlitliga lösningar i Java och Python, utvecklar backendtjänster, automatiserar bygg- och testflöden och omvandlar användarbehov till praktiska digitala lösningar.",
+        "Jag heter Mohammed Uqla och studerar informationsteknik på Chalmers samtidigt som jag arbetar deltid som mjukvaruutvecklare. Jag utvecklar tillförlitliga och användarorienterade lösningar i Java och Python och arbetar genom hela utvecklingsprocessen – från krav och systemdesign till implementation, testning och leverans.",
       workCta: "Se utvalda projekt",
     },
     availability: {
       label: "Nuvarande tillgänglighet",
       status: "Tillgänglig",
       title: "Öppen för heltidsmöjligheter",
-      text: "Jag söker juniora roller där jag kan bidra inom backend- och fullstackutveckling, systemintegration, automatisering och modern mjukvaruleverans.",
+      text: "Jag söker juniora roller inom mjukvaru- och systemutveckling där jag kan bidra med programmering, problemlösning, systemintegration, automatisering och ett starkt fokus på användarnas och verksamhetens behov.",
       languagesLabel: "Språk",
       languages: "Svenska och engelska",
       locationLabel: "Plats",
@@ -206,7 +206,7 @@ window.portfolioTranslations = {
       challenge:
         "Översätta ett domänspecifikt Excel-flöde till ett tillförlitligt skrivbordsverktyg utan att förlora uppdragsgivarens etablerade arbetssätt.",
       contribution:
-        "Arbetade med krav, implementation, test och dokumentation.",
+        "Arbetade genom hela utvecklingsprocessen, från kravinsamling och dialog med uppdragsgivaren till implementation, testning och dokumentation. Översatte verksamhetens och användarnas behov till konkreta funktioner i Java och JavaFX. ",
       outcome:
         "Levererade ett fristående simuleringsverktyg som digitaliserade uppdragsgivarens arbetssätt. Kandidatarbetet fick betyg 5.",
       imageAlt:
