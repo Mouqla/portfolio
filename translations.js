@@ -63,9 +63,9 @@ window.portfolioTranslations = {
       challenge:
         "Translate a domain-specific Excel workflow into a reliable desktop tool without losing the client’s established way of working.",
       contribution:
-        "Worked with requirements, implementation, testing and documentation, and coordinated the team’s delivery as Scrum Master.",
+        "Worked with requirements, implementation, testing and documentation.",
       outcome:
-        "Delivered a standalone simulation tool that digitalised the client’s workflow. The thesis received grade 5, the highest grade.",
+        "Delivered a standalone simulation tool that digitalised the client’s workflow. The thesis received grade 5.",
       imageAlt:
         "AquaSvea simulation dashboard showing saved wastewater process simulations",
       caption: "AquaSvea desktop application — simulation overview.",
@@ -206,9 +206,9 @@ window.portfolioTranslations = {
       challenge:
         "Översätta ett domänspecifikt Excel-flöde till ett tillförlitligt skrivbordsverktyg utan att förlora uppdragsgivarens etablerade arbetssätt.",
       contribution:
-        "Arbetade med krav, implementation, test och dokumentation samt samordnade teamets leverans i rollen som Scrum Master.",
+        "Arbetade med krav, implementation, test och dokumentation.",
       outcome:
-        "Levererade ett fristående simuleringsverktyg som digitaliserade uppdragsgivarens arbetssätt. Kandidatarbetet fick betyg 5, det högsta betyget.",
+        "Levererade ett fristående simuleringsverktyg som digitaliserade uppdragsgivarens arbetssätt. Kandidatarbetet fick betyg 5.",
       imageAlt:
         "AquaSveas simuleringsvy med sparade simuleringar för avloppsprocesser",
       caption: "AquaSveas skrivbordsapplikation — översikt över simuleringar.",
